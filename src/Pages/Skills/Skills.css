@@ -1,0 +1,139 @@
+.skills-container {
+  background-color: #222222;
+  width: 100%;
+  height: 88.6vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  padding-top: 4%;
+}
+.left-container {
+  flex: 50%;
+}
+
+.right-container {
+  flex: 50%;
+  padding-left: 10%;
+}
+.title-right {
+  margin-bottom: 30px;
+  color: #00ffbb;
+  font-weight: normal;
+}
+.skill {
+  margin-top: 14px;
+  width: 300px;
+}
+
+.progress {
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  /* position: relative; */
+  padding: 0 5px;
+  display: flex;
+  height: 22px;
+  width: 300px;
+}
+
+.progress-value {
+  animation: load40 3s normal forwards;
+  box-shadow: 0 2px 1px -10px #fff;
+  border-radius: 100px;
+  background: linear-gradient(90deg, #9e00ff 0%, #00ffbb 100%);
+  height: 15px;
+  width: 0;
+}
+
+@keyframes load90 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes load80 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes load70 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes load40 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+/* LEFT SIDE (BADGES)*/
+.title-left {
+  margin-bottom: 30px;
+  color: #00ffbb;
+  font-weight: normal;
+  padding-left: 5%;
+}
+.badge {
+  margin: 2% 5%;
+  width: 5em;
+  height: 5em;
+  border-radius: 20%;
+  display: inline-block;
+  top: 0;
+  transition: all 0.2s ease;
+  box-shadow: 8px 10px 12px 3px rgba(0, 0, 0, 0.43);
+  align-content: center;
+  text-align: center;
+}
+
+.rounded {
+  width: 60px;
+  height: 60px;
+  background: white;
+  position: absolute;
+  margin: 10px 10px auto;
+  z-index: 1;
+  border-radius: 30%;
+  box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.23);
+}
+.i,
+.fab {
+  font-size: 3em;
+  padding-top: 6px;
+}
+
+@media screen and (max-width: 860px) {
+  .skills-container {
+    background-color: #222222;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    padding-top: 4%;
+  }
+
+  .right-container {
+    padding: 0;
+  }
+  .left-container {
+    padding: 50px 0;
+  }
+}

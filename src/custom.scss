@@ -1,0 +1,17 @@
+// overwriteing themes of bootstrap
+$btn-primary: ();
+$theme-colors: (
+  "primary": $info,
+);
+$navbar-light: (
+  background-color: red,
+);
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: aqua;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: brown;
+}
+$navbar-light-color: brown;
+@import "~bootstrap/scss/bootstrap";
