@@ -1,6 +1,6 @@
 # My portfolio
 
-## includes projects with live testing and cv
+Includes projects with live testing and cv
 
 ## Getting Started with Create React App
 
