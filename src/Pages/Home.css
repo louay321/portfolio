@@ -58,8 +58,10 @@
   flex: 50%;
 }
 
-.side-img-box p {
-  color: white;
+.avatar {
+  width: 500px;
+  z-index: 2;
+  opacity: 100%;
 }
 /* Background shapes with animation looped*/
 .shape1,

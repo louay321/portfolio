@@ -1,7 +1,7 @@
 import Backgroundvideo from "../assets/backgroundVideo.mp4"
 import "./Home.css";
 import Herotext from '../components/Herotext';
-
+import Avatar from '../assets/Avatar.svg';
 
 export default function Home(){
     return (
@@ -10,6 +10,7 @@ export default function Home(){
         <div className="home-container">          
             <Herotext />
             <div className="side-img-box">
+            <img src={Avatar} className="avatar" />
             </div>
             <div className="img-back">
             
@@ -23,7 +24,6 @@ export default function Home(){
         <div className="shape5"></div>
         <div className="shape6"></div>
         <div className="shape7"></div>
-        <div className="shape8"></div>
         <div className="shape9"></div>
         </div>
     )
